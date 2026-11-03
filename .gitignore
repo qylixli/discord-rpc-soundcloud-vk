@@ -1,0 +1,4 @@
+   node_modules/
+   companion/config.json
+   companion.log
+   *.log
