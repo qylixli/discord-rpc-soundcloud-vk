@@ -8,7 +8,7 @@ artwork and a progress bar ("elapsed / end"). Pause or close the tab and the sta
 | Service | Status |
 |---|---|
 | SoundCloud (soundcloud.com) | works |
-| VK Music (vk.com) | **experimental**: relies on VK's internal player, may behave differently on other accounts/site versions. See [Troubleshooting](#troubleshooting) |
+| VK Music (vk.com) | works |
 
 ## Requirements
 
