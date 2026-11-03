@@ -1,0 +1,18 @@
+{
+    "name": "discord-rpc-soundcloud-vk",
+    "version": "1.0.0",
+    "description": "Local helper that shows what you listen to on SoundCloud and VK Music in Discord Rich Presence",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node --test test/"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "@xhayper/discord-rpc": "^1.3.0"
+    },
+    "license": "MIT"
+}
