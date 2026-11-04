@@ -1,4 +1,4 @@
-' Запускает программу без окна. Лог пишется в companion.log
+' Starts the program without a window. The log is written to companion.log
 Set fso = CreateObject("Scripting.FileSystemObject")
 Set sh = CreateObject("WScript.Shell")
 root = fso.GetParentFolderName(WScript.ScriptFullName)

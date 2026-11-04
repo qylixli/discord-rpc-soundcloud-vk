@@ -52,6 +52,7 @@ Check **`companion.log`** in the project folder first.
 - No `Играет: …` line in the log → the browser is not reaching the program: make sure the userscript is enabled and
   access to `127.0.0.1` is allowed in Tampermonkey.
 - `Играет: …` is in the log but Discord shows nothing → check step 5 and the `clientId` in `config.json`.
+- *"Windows Script Host: Can not find script file" at Windows startup* → that is an old autostart entry (it broke on paths with non-Latin letters). Run `install.bat` again: it replaces it with a correct one.
 - **VK not working?** On vk.com press `F12` → **Console** and look for `[VK→Discord]` lines ("playing", "not playing" or
   "VK player not found") and attach them to an Issue.
 
